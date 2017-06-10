@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:id="@+id/dialog_imageview"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:src="@mipmap/ic_profile_part"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Азамат Каработоев"
+        android:textStyle="bold"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="статус: Always readyyy to move!!!"
+        android:textStyle="bold"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Журналист Kloop.kg. Богемное нервическое существо, периодически теряющее осознание своего гендера.
+  Пытаюсь всеми своими силами понять происходящий вокруг хаос."
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Местоположение"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Бишкек:                  Огонбаева 222"
+        android:layout_weight="0.06" />
+
+
+
+
+</LinearLayout>
